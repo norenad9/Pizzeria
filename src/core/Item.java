@@ -9,5 +9,13 @@ package core;
  * @author norenad
  */
 public class Item {
-    
+private int id;    
+private String nombre;    
+private int valor;    
+
+    public Item(int id, String nombre, int valor) {
+        this.id = id;
+        this.nombre = nombre;
+        this.valor = valor;
+    }
 }

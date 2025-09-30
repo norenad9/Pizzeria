@@ -1,3 +1,6 @@
+import core.Cliente;
+import core.Item;
+import core.Pizzeria;
 import java.util.ArrayList;
 
 public class Main1 {

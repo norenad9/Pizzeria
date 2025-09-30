@@ -4,10 +4,14 @@
  */
 package core;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author norenad
  */
 public class Pedido {
-    
+protected Cliente cliente = new Cliente();    
+protected ArrayList<Item>items=new ArrayList();
+
 }

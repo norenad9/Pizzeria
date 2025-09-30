@@ -11,6 +11,9 @@ import java.util.ArrayList;
  * @author norenad
  */
 public class Pizzeria {
-String nombre;
-ArrayList<Cliente>=new ArrayList();
+private String nombre;
+private ArrayList<Cliente>clientes =new ArrayList();
+private ArrayList<Item>items =new ArrayList();
+private ArrayList<Pedido>pedidos =new ArrayList();
+
 }
