@@ -8,6 +8,11 @@ package core;
  *
  * @author norenad
  */
-public class PedidoOnline {
-    
+public class PedidoOnline extends Pedido {
+private String email;
+
+    public PedidoOnline(String email) {
+        this.email = email;
+    }
+
 }

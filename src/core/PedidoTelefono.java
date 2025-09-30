@@ -9,5 +9,9 @@ package core;
  * @author norenad
  */
 public class PedidoTelefono {
-    
+private String telefono;    
+
+    public PedidoTelefono(String telefono) {
+        this.telefono = telefono;
+    }
 }

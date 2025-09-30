@@ -16,4 +16,8 @@ private ArrayList<Cliente>clientes =new ArrayList();
 private ArrayList<Item>items =new ArrayList();
 private ArrayList<Pedido>pedidos =new ArrayList();
 
+    public Pizzeria(String nombre) {
+        this.nombre = nombre;
+    }
+
 }

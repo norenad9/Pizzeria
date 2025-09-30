@@ -14,4 +14,7 @@ public class Pedido {
 protected Cliente cliente = new Cliente();    
 protected ArrayList<Item>items=new ArrayList();
 
+    public Pedido() {
+    }
+    
 }
